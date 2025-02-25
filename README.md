@@ -3,10 +3,8 @@
     <img class="company-logo__img" src="https://cdn2.gnarususercontent.com.br/1/1221562/b6256fa6-5fde-4cdd-a4a3-d33ebc90bb6c.png" alt="Logo da empresa - Oracle ONE - Br Geral 8">
     <h1>Turma 8</h1>
     <h2>Alura 7 days of code</h2>
-  </div>  
-<p>Desafio alura 7 dias de código em javascript</p>
-
-<h4>Objetivo:</h4>
+</div>  
+<h3>Objetivo:</h3>
 <p>Praticar os 7 desafios de código em JavaScript em 7 dias</p>
 
 <h2>Day 1</h2>
@@ -35,27 +33,4 @@ Clonar o projeto:
 ```
 
 Abrir a pasta do projeto:
-
-```bash
-  cd dio_recomendacao_por_imagem
-```
-
-No terminal digite:
-
-```bash
-  pip install numpy
-  pip install pillow
-  pip install tensorflow
-  pip install tensorflow_hub
-  pip install pandas
-  pip install tqdm
-  pip install matplotlib
-  pip install annoy
-  pip install scipy
-```
-
-No terminal digite:
-
-```bash
-  python3 main.py
-```
+- Clique no arquivo index.html
