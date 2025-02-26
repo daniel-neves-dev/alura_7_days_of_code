@@ -8,12 +8,21 @@
 <p>Praticar os 7 desafios de código em JavaScript em 7 dias</p>
 
 <h2>Day 1</h2>
+<p>Uso de comparativos e condições</p>
 <div align = center>
   <table>
     <tr>
       <td align="center"><img src="https://github.com/user-attachments/assets/a9ebeef8-84fc-4581-a4eb-32ab6adc47a5"></td>
     </tr>
   </table>
+</div>
+
+<h2>Day 2</h2>
+<p>Uso do variáveis</p>
+<div align = center>
+    
+https://github.com/user-attachments/assets/0ed1da6c-8b5a-4907-abcd-994b1e921c83
+
 </div>
 
 -------------------------------------------------------------------------------------------------------------
