@@ -29,9 +29,13 @@ https://github.com/user-attachments/assets/0ed1da6c-8b5a-4907-abcd-994b1e921c83
 <p>Uso do variáveis e condicionais</p>
 <div align = center>
 
-
+https://github.com/user-attachments/assets/18b63237-457c-44a9-95da-43f2494b738e
 
 </div>
+
+
+
+
 
 <h2>Day 4</h2>
 <p>Uso do variáveis, condicionais e contagem</p>
