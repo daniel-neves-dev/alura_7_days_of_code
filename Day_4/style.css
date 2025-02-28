@@ -1,0 +1,168 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  :root {
+    --font-primary: 'Orbitron', sans-serif; /* Ajuste para a fonte que preferir */
+    --color-text: #fff;
+    --color-bg: #0c0c0c;
+    --color-bg-panel: rgba(0, 0, 0, 0.7);
+    --color-neon: #00ffc6;
+    --color-neon-dark: #00caa0;
+    --color-btn-bg: #00594d;
+    --color-btn-hover: #007a67;
+  }
+  
+  html, body {
+    width: 100%;
+    height: 100%;
+    font-family: var(--font-primary);
+    color: var(--color-text);
+    background: var(--color-bg) url('https://cdn.pixabay.com/photo/2020/05/18/07/28/space-5175696_1280.jpg') no-repeat center center fixed;
+    background-size: cover;
+    user-select: none;
+  }
+  
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+  }
+
+  main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width:auto;
+  
+  }
+  
+  
+  /* Painel translúcido que lembra um “HUD” de game */
+  #section_1{
+    max-width: 500px;
+    width: 100%;
+    padding: 2rem;
+    background: var(--color-bg-panel);
+    border: 2px solid var(--color-neon-dark);
+    border-radius: 12px;
+    text-align: center;
+    margin: 1rem;
+    /* Efeito “neon” no contorno */
+    box-shadow: 
+      0 0 10px var(--color-neon-dark),
+      0 0 20px var(--color-neon-dark),
+      inset 0 0 20px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Efeito extra de brilho quando passar o mouse */
+  #section_1:hover, #section_2:hover {
+    box-shadow:
+      0 0 10px var(--color-neon),
+      0 0 20px var(--color-neon),
+      0 0 40px var(--color-neon),
+      inset 0 0 20px rgba(0, 0, 0, 0.5);
+    transition: 0.3s;
+  }
+  
+  h1 {
+    font-size: 2.2rem;
+    margin-bottom: 0.5rem;
+    color: var(--color-neon);
+    text-shadow: 0 0 6px var(--color-neon), 0 0 10px var(--color-neon-dark);
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #ffffffcc;
+  }
+  
+  h3, h4 {
+    margin: 1rem 0;
+  }
+
+  [disabled] {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  
+  /* Inputs */
+  .input_group {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-top: 1rem;
+  }
+  
+  input {
+    width: 100%;
+    padding: 12px;
+    background: #111;
+    border: 1px solid #333;
+    border-radius: 6px;
+    color: var(--color-text);
+    font-size: 1rem;
+    transition: border-color 0.3s;
+  }
+  
+  input:focus {
+    outline: none;
+    border-color: var(--color-neon);
+  }
+  
+  /* Botões estilo “neon” */
+  button {
+    display: inline-block;
+    width: 100%;
+    padding: 12px;
+    margin: 0.5rem 0;
+    background: var(--color-btn-bg);
+    border: 2px solid var(--color-neon-dark);
+    border-radius: 6px;
+    color: var(--color-text);
+    font-size: 1.1rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: 0.3s;
+    position: relative;
+  }
+  
+  /* Efeito “brilho” ao hover */
+  button:hover {
+    background: var(--color-btn-hover);
+    border-color: var(--color-neon);
+    box-shadow: 
+      0 0 5px var(--color-neon), 
+      0 0 10px var(--color-neon),
+      0 0 15px var(--color-neon);
+  }
+  
+  /* Ajuste de imagem dentro do botão */
+  button img {
+    vertical-align: middle;
+    margin-right: 0.5rem;
+  }
+  
+  /* Alertas e mensagens */
+  #menssagem, #alerta, #lista_tech {
+    margin-top: 1rem;
+    font-size: 1rem;
+    min-height: 20px;
+    text-align: center;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    margin-top: 2rem;
+    color: #ccc;
+    font-size: 0.8rem;
+    opacity: 0.8;
+  }
+  
