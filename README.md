@@ -25,6 +25,21 @@ https://github.com/user-attachments/assets/0ed1da6c-8b5a-4907-abcd-994b1e921c83
 
 </div>
 
+<h2>Day 3</h2>
+<p>Uso do variáveis e condicionais</p>
+<div align = center>
+
+</div>
+
+
+
+
+
+
+
+
+
+
 -------------------------------------------------------------------------------------------------------------
 
 ## 👨‍💻 Tecnologias Usadas:
