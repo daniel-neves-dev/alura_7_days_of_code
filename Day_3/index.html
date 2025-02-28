@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="style.css" />
+  <title>Day 3</title>
+</head>
+<body>
+  <main>
+    <section id="section_1">
+      <h1>7 Days of Code</h1>
+      <h2>Day 3</h2>
+      <h3>Qual área você quer seguir: </h3>
+      <button type="button" id="front_end">Front-End</button>
+      <button type="button" id="back_end">Back-End</button>
+      <br />
+      <button type="button" id="react" hidden>
+        <img src="/images/react.png" width="20" alt="react" />
+        React
+      </button>
+      <button type="button" id="vue" hidden>
+        <img src="/images/vue.png" width="20" alt="vue" />
+        Vue
+      </button>
+      <br />
+      <button type="button" id="c_sharp" hidden>
+        <img src="/images/c_sharp.png" width="20" alt="c_sharp" />
+        C#
+      </button>
+      <button type="button" id="java" hidden>
+        <img src="/images/java.png" width="20" alt="java" />
+        Java
+      </button>
+      <br />
+
+      <div id="escolher_area" hidden>
+        <p>Qual área você quer seguir:</p>
+        <button type="button" id="especialista">Ser especialista</button>
+        <button type="button" id="full_stack">Ser FullStack</button>
+        <h4 id="menssagem"></h4>
+      </div>
+    </section>
+
+    <section id="section_2" hidden>
+      <h2>Quais novas tecnologias você gostaria de conhecer</h2>
+
+      <button type="button" id="adicionar_tech">Adicionar tecnologia</button>
+      <div class="input_group">
+        <p id="alerta"></p>
+        <input type="text" id="itech" name="tech" placeholder="tecnologias" />
+        <p id="lista_tech"></p>
+      </div>
+    </section>
+  </main>
+
+  <footer></footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
