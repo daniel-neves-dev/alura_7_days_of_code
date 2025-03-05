@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Day 6</title>
+</head>
+<body>
+    <main>
+        <section id="section_criar_lista_compras">
+            <h1>7 Days of Code</h1>
+            <h2>Day 6</h2>
+            <h3>Criar nova lista de compras:</h3>
+            <button type="button" id="criar_lista">Sim</button>
+            <button type="button" id="nao_criar_lista">Não</button>
+            <h2 id="lista_nao_criada" hidden>Criação de lista cancelada</h2>
+
+            <div id="criar_lista_compras" hidden>
+                <select name="categoria" id="categoria">
+                    <option value="" disabled selected>Selecione uma categoria:</option>
+                    <option value="frutas">Frutas</option>
+                    <option value="laticínios">Laticínios</option>
+                    <option value="congelados">Congelados</option>
+                    <option value="doces">Doces</option>
+                </select>
+                <h3 id="menssagens_criacao"></h3>
+                <input type="text" name="listar_produto" id="input_produto" class="entrada_valores" placeholder="Digite o nome do produto">
+                <button type="button" id="adicionar_produto">Adicionar produto</button>
+                <button type="button" id="finalizar_lista">Finalizar lista</button>
+            </div>
+        </section>
+
+        <section hidden id="mostrar_lista_compras">
+            <div>
+                <button type="button" id="mostrar_lista">Mostrar Lista</button>
+                <h2>Lista de compras:</h2>
+                <h3 id="menssagens_lista"></h3>
+                <div id="listar_compras"></div>
+            </div>
+
+            <div id="container_busca">
+                <input type="text" name="input_buscar_itemr_item" id="input_buscar_item" class="entrada_valores" placeholder="Digite o nome do item">
+                <button type="button" id="buscar_item">Buscar item</button>
+                <button id="deletar_item">Deletar Item</button>
+                <button id="atualizar_lista">Atualizar Lista</button>
+                <p>
+                    <h4 id="mostrar_item"></h4>
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

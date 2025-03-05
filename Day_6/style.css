@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  [hidden] {
+    display: none !important;
+  }
+  
+  [disabled] {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+
+
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+
+  main {
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  section {
+    background: #fff;
+    border: 2px solid #d4a373;
+    border-radius: 12px;
+    padding: 25px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  section:first-of-type h1,
+  section:first-of-type h2 {
+    text-align: center;
+    color: #8c4f3d;
+    margin-bottom: 15px;
+  }
+  
+  h3 {
+    color: #8c4f3d;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+  #criar_lista,
+  #nao_criar_lista {
+    display: inline-block;
+    margin: 0 5px;
+  }
+  
+  section:first-of-type {
+    text-align: center;
+  }
+  
+  button {
+    cursor: pointer;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    background-color: #27ae60;
+    color: #fff;
+    font-size: 1rem;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin-bottom: 10px;
+  }
+  
+  button:hover {
+    background-color: #1e8449;
+    transform: scale(1.02);
+  }
+  
+  
+  #nao_criar_lista, #deletar_item {
+    background-color: #e74c3c;
+  }
+  
+  #nao_criar_lista:hover {
+    background-color: #c0392b;
+  }
+
+  #deletar_item:hover {
+    background-color: #c0392b;
+  }
+  
+  #finalizar_lista {
+    background-color: #e67e22;
+  }
+  
+  #finalizar_lista:hover {
+    background-color: #d35400;
+  }
+  
+  select,
+  input[type="text"] {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0 20px 0;
+    border: 1px solid #d4a373;
+    border-radius: 6px;
+    background-color: #faf3e0;
+    font-size: 1rem;
+  }
+  
+  #menssagens {
+    margin-bottom: 15px;
+    color: #c0392b;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  
+  #listar_compras {
+    margin-top: 15px;
+  }
+  
+  
+  #listar_compras ul {
+    list-style: none;
+    margin-bottom: 15px;
+    padding: 15px;
+    border: 1px dashed #d4a373;
+    border-radius: 6px;
+    background-color: #fcf9e8;
+    font-weight: bold;
+    position: relative;
+  }
+  
+  #listar_compras ul::before {
+    content: attr(data-category);
+    position: absolute;
+    top: -12px;
+    left: 15px;
+    background: #fcf9e8;
+    padding: 0 5px;
+    font-size: 0.9rem;
+    font-weight: normal;
+    color: #8c4f3d;
+  }
+  
+  #listar_compras li {
+    margin-left: 20px;
+    padding: 5px 0;
+    font-weight: normal;
+    border-bottom: 1px dotted #d4a373;
+  }
+  
+  #listar_compras li:last-child {
+    border-bottom: none;
+  }
+  
