@@ -50,6 +50,22 @@ https://github.com/user-attachments/assets/8f343a7a-cb31-486c-b43f-c57c4a8f3515
 
 </div>
 
+<h2>Day 6</h2>
+<p>Uso de arrays, busca e delete</p>
+<div align = center>
+    
+https://github.com/user-attachments/assets/ff7caf1f-00e5-43cb-8307-f35ae173a0b1
+
+</div>
+
+<h2>Day 7</h2>
+<p>Uso de valores</p>
+<div align = center>
+    
+https://github.com/user-attachments/assets/32e610cb-b023-4966-87bc-57a89346ccfc
+
+</div>
+
 -------------------------------------------------------------------------------------------------------------
 
 ## 👨‍💻 Tecnologias Usadas:
