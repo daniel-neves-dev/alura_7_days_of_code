@@ -34,14 +34,19 @@ https://github.com/user-attachments/assets/18b63237-457c-44a9-95da-43f2494b738e
 </div>
 
 
-
-
-
 <h2>Day 4</h2>
 <p>Uso do variáveis, condicionais e contagem</p>
 <div align = center>
     
 https://github.com/user-attachments/assets/4b5ad31b-3628-4dc2-afd3-1cc6cc06212e
+
+</div>
+
+<h2>Day 5</h2>
+<p>Uso de arrays e condicionais</p>
+<div align = center>
+    
+https://github.com/user-attachments/assets/8f343a7a-cb31-486c-b43f-c57c4a8f3515
 
 </div>
 
